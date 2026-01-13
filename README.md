@@ -10,9 +10,7 @@ git clone https://github.com/joncoded/jonopyth.git
 
 ### api key
 
-
-|⚠️ you will require a _free_ [GROQ](https://console.groq.com/keys) (not to be confused with _Grok_) API key which, as of 2026-01-01, will work on these files!|
---
+⚠️ you will require a _free_ [GROQ](https://console.groq.com/keys) (not to be confused with _Grok_) API key which, as of 2026-01-01, will work on these files!
 
 use the API key on Terminal (Mac/Linux):
 
@@ -38,3 +36,8 @@ C:\> set GROQ_API_KEY=your_api_key
 * `orchestrated_trip.py` (LLM orchestration travel itinerary maker)
 * `output_json.py` (get your prompt as a JSON object)
 * `prompt_chaining_summarizer.py` (LLM response summarizer)
+
+## demo
+
+- for now these will work only on a local machine 
+- a web-based version might appear in the future
