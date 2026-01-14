@@ -10,7 +10,7 @@ git clone https://github.com/joncoded/jonopyth.git
 
 ### api key
 
-you will require a _free_ [Groq](https://console.groq.com/keys) 
+you will require a _free_ [Groq](https://console.groq.com/keys) API key
 
 (_Groq_ is not to be confused with xAI's _Grok_)
 
