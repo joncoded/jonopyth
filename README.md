@@ -4,10 +4,18 @@ an ongoing and growing gathering of python stuff (mostly for wrestling with thos
 
 ## components
 
-* `evalrouting_code_generator.py` (with evaluative routing, make the LLM write code snippets for you!)
-* `orchestrated_trip.py` (LLM orchestration travel itinerary maker)
-* `output_json.py` (get your prompt as a JSON object)
-* `prompt_chaining_summarizer.py` (LLM response summarizer)
+* `evalrouting_code_generator.py` 
+  * make the LLM write code snippets for you
+  * makes use of _evaluative routing_ (iterative improvement)
+* `orchestrated_trip.py` 
+  * travel itinerary maker
+  * makes use of _LLM orchestration_ (splits big task into subtasks)
+* `output_json.py` 
+  * prompt response as a JSON object
+  * makes use of `response_format`
+* `prompt_chaining_summarizer.py`
+  * LLM response summarizer (get output in 1 sentence and 3 bullet points!)
+  * makes use of _prompt chaining_
 
 ## setup
 
