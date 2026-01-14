@@ -10,15 +10,17 @@ git clone https://github.com/joncoded/jonopyth.git
 
 ### api key
 
-⚠️ you will require a _free_ [GROQ](https://console.groq.com/keys) (not to be confused with _Grok_) API key which, as of 2026-01-01, will work on these files!
+you will require a _free_ [Groq](https://console.groq.com/keys) 
 
-use the API key on Terminal (Mac/Linux):
+(_Groq_ is not to be confused with xAI's _Grok_)
+
+#### using the API key on Terminal (Mac/Linux)
 
 ```
 % export GROQ_API_KEY=your_api_key
 ```
 
-use the API key on Command Prompt (Windows):
+#### using the API key on Command Prompt (Windows)
 
 ```
 C:\> set GROQ_API_KEY=your_api_key
