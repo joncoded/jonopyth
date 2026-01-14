@@ -26,11 +26,20 @@ you will require a _free_ [Groq](https://console.groq.com/keys) API key
 C:\> set GROQ_API_KEY=your_api_key
 ```
 
-### running files
+## demo
+
+after cloning the repo onto your local machine, run this command
+
+on Terminal (Mac/Linux):
 
 ```
 % python3 anypyfile.py
 ```
+
+on Command Prompt (Windows): 
+
+```
+C:\> python anypyfile.py
 
 ## components
 
@@ -38,8 +47,3 @@ C:\> set GROQ_API_KEY=your_api_key
 * `orchestrated_trip.py` (LLM orchestration travel itinerary maker)
 * `output_json.py` (get your prompt as a JSON object)
 * `prompt_chaining_summarizer.py` (LLM response summarizer)
-
-## demo
-
-- for now these will work only on a local machine 
-- a web-based version might appear in the future
