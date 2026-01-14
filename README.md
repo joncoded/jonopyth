@@ -2,6 +2,13 @@
 
 an ongoing and growing gathering of python stuff (mostly for wrestling with those enigmatic LLMs!)
 
+## components
+
+* `evalrouting_code_generator.py` (with evaluative routing, make the LLM write code snippets for you!)
+* `orchestrated_trip.py` (LLM orchestration travel itinerary maker)
+* `output_json.py` (get your prompt as a JSON object)
+* `prompt_chaining_summarizer.py` (LLM response summarizer)
+
 ## setup
 
 ```
@@ -40,10 +47,6 @@ on Command Prompt (Windows):
 
 ```
 C:\> python anypyfile.py
+```
 
-## components
-
-* `evalrouting_code_generator.py` (with evaluative routing, make the LLM write code snippets for you!)
-* `orchestrated_trip.py` (LLM orchestration travel itinerary maker)
-* `output_json.py` (get your prompt as a JSON object)
-* `prompt_chaining_summarizer.py` (LLM response summarizer)
+note: everything is text-based (no website or local web app yet!)
